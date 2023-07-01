@@ -1,0 +1,10 @@
+defaults:
+    -
+        scope:
+            path: ""
+        values:
+            post_nav: postnav
+            layout: default
+
+kramdown:
+    smart_quotes: ["apos", "apos", "quot", "quot"]
