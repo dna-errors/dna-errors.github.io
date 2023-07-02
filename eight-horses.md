@@ -1,4 +1,5 @@
 ---
+title: Eight Horses Paradox
 ---
 
 # Eight Horsers Paradox
@@ -20,67 +21,27 @@ This is explained by horses not pulling synchronously enough and even hindering 
 
 **And this works in IT projects too!** Let's have a look at some negative as well as some positive examples.
 
-<h2 class="section-heading">Six men and additional experts</h2>
+<h2 class="section-heading">Seven men plus some experts</h2>
 
-Experience from "MP" project. When I joined this team, I was the 7-th. Project was conceived as "Start-up",
-fusing telecom and blockchain technologies. Besides the full-time members there were part-time "experts", so
-it was almost a small army! Despite of this, development was markedly slow and haven't reached production
-even after more than year of efforts.
+The project with codename "MP" was at very "conception" state when I joined the team. They all were very nice,
+positive fellows and posed themselves as "Startup". Despite such early stage, I was already 7-th in the core
+team, and there were more part-time specialists besides this core.
 
-Let's see what the "core team" consisted of:
+Pretty little army! But half a year later I started to feel that we only achieved as much as a pair smart students
+can do in a month. Half a year more - and the startup still had failed to "start".
 
-- Project owner, ideologist and visioner
-- Project manager, responsible for hiring the rest of the team and attempting to drive the process
-- Cyber-Security Guy - it was anticipated we'll have some degree of fraud from users and he was to prevent this
-- IoT specialist - as the project was around certain hardware / telecom solution
-- Hardware programmer - to help IoT specialist
-- Devops - taking care about infrastructure (servers, clusters, kubernetes, amazon etc)
-- Backend programmer - to take care of server-side application collecting data, providing user accounts etc
+There were several factors leading to such a sad situation, the team size (and professional level) - one of the critical ones. [**Read more...**](mp-heads.html)
 
-Still this list lacks some important people: Quality Assurance specialist (or "tester"), Business Analyst, the
-person who defines and clarifies the tasks - and Frontend developer (UI, web). Some of them joined later.
+<h2 class="section-heading">Hard win with 150 heads</h2>
 
-**What is wrong with such setup?** Just as the Bible says about Babylon Tower: several people are carrying
-single brick instead of one person carrying several bricks. Many calls, few responsibility.
+Very different, but also nearly-disastrous experience from the "MO" project. It evolved like this:
 
-Let's go through the list in order.
+- client had great but extremely puzzling task
+- and wanted quick result (in half a year)
+- then 150 people were allocated to it in hope to do it quickly
 
-Project owner is generally out of question. Entity which exists and couldn't be changed. It is good for product
-owner to have background in IT and play role of manager or BA for example. It wasn't the case though.
-
-Manager. Larger companies generally allocate single project manager for 3-4 projects. There are not always enough
-work for single manager in single project. Thus it is good for manager to be also BA and QA for example. In this
-case manager generally neglected to write tasks requirements so later it sometimes was hard to figure out whether
-they are fulfilled by implementation.
-
-Security Guy. In brief, it was premature state for full-time security specialist. It soon appeared that security
-issues are overestimated and the fellow was reassigned "to help with backend". Regretfully it wasn't his strongest side. Security too.
-
-IoT specialist and Hardware programmer - why two? because IoT specialist wasn't good in hardware programming.
-That's bad, he often had nothing specific to do or was assigned tasks for which he was not exactly capable.
-
-UI developer and UX designer who appeared bit later were separate people. Often developer needed to wait for
-designs for several days, because designer was part-time participant.
-
-**To conclude:** it feels like the team was assembled faster than understanding of the project evolved. Also it
-often feels difficult to say farewell to members which appear unneeded. In larger company it is possible to
-move them to other projects, but it is not the case for start-up.
-
-<h2 class="section-heading">150 heads to do it quickly</h2>
-
-Very different, but also disastrous experience from the "MO" project. I was working for outsourcer company which was approached
-by very large client - one of the big international analytics agencies. They wanted some impressive solution to
-automate processing of various documents, reports etc - quickly, say in 6 months. This outsourcer in turn was
-cool in that they never were afraid of short projects.
-
-They allocated 150 specialists to work on the project (or rather set of subprojects) during the first month.
-It soon became a real mess: I myself was made a team-lead of the team which incorporated all people not assigned
-to more specific teams yet. Every daily standup I discovered some people left and some new people were added -
-and my team soon grew from 3 to about 20 members. Ironically we made certain progress during the first month,
-when we were few. But with explosive growth of the "population" work soon converted into numerous calls and
-heated debates about what should be done and how.
-
-I left the company soon, but was informed by colleagues the project nevertheless was completed, though it took twice more time than expected and with overall feeling that the amount of work done was adequate for 20-30 people rather than 150. Still the client was less or more satisfied, so it was not a total failure.
+It was not complete disaster, since there was some work done anyway, but feel free to [**Read more**](mo-150.html)
+in the dedicated article.
 
 <h2 class="section-heading">Positive Cases</h2>
 
@@ -101,6 +62,15 @@ Similarly **Apple Inc** was started by two friends, **Steve Jobs** and **Steve W
 small home computer, "Apple I". It is in many ways different, particularly because member roles were quit
 distinct - Steve W. was hardware guru, while Steve J. besides excellent business and management skills was
 always influential in shaping out requirements for company products.
+
+<h2 class="section-heading">Conclusion</h2>
+
+One of "Parkinson's Laws" states that "boss on every level tends to increase the number of subordinates" - so
+most probably this situation goes beyond the IT-world.
+
+The good idea is to start with 2-3 people able to produce some Proof-of-Concept solution. If you feel that team
+is already larger but Minimum-Value-Product is yet in unforeseeable future - most probably things already have
+diverted from the right way - take urgent actions immediately!
 
 <!--                <h2 class="section-heading">The Final Frontier</h2>
                 <a href="#!"><img class="img-fluid" src="assets/img/post-sample-image.jpg" alt="..." /></a> -->
